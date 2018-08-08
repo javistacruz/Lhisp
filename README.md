@@ -1,5 +1,5 @@
-% Lhisp
-% Lisp en español para hispanohablantes
+Lhisp
+=====
 
 Lhisp (Lisp hispano), es un dialecto de la familia de lenguajes de
 programación LISP, que son una implementación del Cálculo lambda. 
@@ -10,7 +10,7 @@ funciones y tratando en lo posible de asemejarse al habla natural de
 un usuario hispanohablante.
 
 Instalación
-===========
+-----------
 
 Por el momento el programa está en una fase muy temprana. Para
 compilar bastará con:
@@ -20,7 +20,7 @@ cc -std=c99 -Wall repl.c -o lhisp
 ```
 
 Características
-===============
+---------------
 
 En su versión fundamental (0.0.0), Lhisp incluye un intérprete y una
 REPL escritos en C.
@@ -34,7 +34,8 @@ REPL escritos en C.
   usuario|ambiente|clausura =>".
       
 Quehaceres
-==========
+----------
+
 En posteriores versiones, existe la voluntad de lograr los siguientes objetivos:
 
 - Implementar nuevas funcionalidades extraídas de
